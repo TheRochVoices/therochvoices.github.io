@@ -1,921 +1,417 @@
 <!DOCTYPE html>
-<html class="no-js" lang="en">
-<head>
-
-    <!--- basic page needs
-    ================================================== -->
+<html lang="en">
+  <head>
+    <title>Andrea - Free Bootstrap 4 Template by Colorlib</title>
     <meta charset="utf-8">
-    <title>Kreative</title>
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <!-- mobile specific metas
-    ================================================== -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- CSS
-    ================================================== -->
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/vendor.css">
-
-    <!-- script
-    ================================================== -->
-    <script src="js/modernizr.js"></script>
-    <script defer src="js/fontawesome/all.min.js"></script>
-
-    <!-- favicons
-    ================================================== -->
-    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
-    <link rel="manifest" href="site.webmanifest">
-
-</head>
-
-<body id="top">
-
-
-    <!-- preloader
-    ================================================== -->
-    <div id="preloader">
-        <div id="loader"></div>
-    </div>
-
-
-    <!-- header
-    ================================================== -->
-    <header class="s-header">
-        <div class="row">
-
-            <div class="s-header__logo">
-                <a href="index.html">
-                    <img src="images/logo.svg" alt="Homepage">
-                </a>
-            </div>
-
-            <nav class="s-header__nav">
-                <ul>
-                    <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
-                    <li><a class="smoothscroll" href="#services">Services</a></li>
-                    <li><a class="smoothscroll" href="#portfolio">Portfolio</a></li>
-                    <li><a class="smoothscroll" href="#blog">Journal</a></li>
-                    <li><a class="smoothscroll" href="#about">About Us</a></li>
-                    <li><a class="smoothscroll" href="#contact">Contact</a></li>
-                </ul>
-            </nav>
-
-            <a class="s-header__menu-toggle" href="#0" title="Menu">
-                <span class="s-header__menu-icon"></span>
-            </a>
-
-        </div> <!-- end row -->
-    </header> <!-- end s-header -->
-
-
-    <!-- home
-    ================================================== -->
-    <section id="home" class="s-home target-section" data-parallax="scroll" data-image-src="images/hero-bg.jpg" data-natural-width="3000" data-natural-height="2000">
-
-        <div class="s-home__content">
-
-            <div class="s-home__slider">
-
-                <div class="s-home__slide s-home__slide--1">
-                    <div class="row">
-                        <div class="column large-12 s-home__slide-text">
-                            <h2>
-                            Hello, we are <span>Kreative</span>.
-                            We specialize in UI design, branding & visual identity.
-                            </h2>
-                            <p>
-                            Aenean condimentum, lacus sit amet luctus lobortis, 
-                            dolores et quas molestias excepturi enim tellus ultrices 
-                            elit, amet consequat enim elit noneas sit amet luctu.
-                            </p>
-                        </div>
-                    </div>
-                </div> <!-- end s-home__slide -->
-
-                <div class="s-home__slide s-home__slide--2">
-                    <div class="row">
-                        <div class="column large-12 s-home__slider-text">
-                            <h2>
-                            See some of <a href="#portfolio" title="">our works</a> or 
-                            <a href="#contact" title="">get in
-                            touch</a> to discuss how we could help you.
-                            </h2>
-                            <p>
-                            Expedita tempora nostrum. Quidem sit consequatur. Inventore 
-                            aut ut necessitatibus. Corporis suscipit quis consequatur aut 
-                            aliquid vitae et architecto nam.
-                            </p>
-                        </div>
-                    </div>
-                </div> <!-- end s-home__slide -->
-
-            </div> <!-- end s-home__slider -->
-
-        </div> <!-- end s-home__content -->
-
-        <div class="s-home__nav-arrows">
-            <div class="s-home__arrow-prev">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12.707 17.293L8.414 13H18v-2H8.414l4.293-4.293-1.414-1.414L4.586 12l6.707 6.707z"/></svg>
-            </div>
-            <div class="s-home__arrow-next">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M11.293 17.293l1.414 1.414L19.414 12l-6.707-6.707-1.414 1.414L15.586 11H6v2h9.586z"/></svg>
-            </div>
-        </div> <!-- end s-home__nav-arrows -->
-
-        <div class="s-home__line"></div>
-
-    </section> <!-- end s-home -->
-
-
-    <!-- services
-    ================================================== -->
-    <section id="services" class="s-services target-section s-dark">
-
-        <div class="row section-head">
-            <div class="column large-3 medium-12" data-aos="fade-up">
-                <h2>Services</h2>
-                <p class="desc">Our list of awesome services.</p>
-            </div>
-
-            <div class="column large-8 medium-12 align-x-right" data-aos="fade-up">
-                <p class="lead">
-                At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis 
-                praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias 
-                excepturi sint occaecati cupiditate. At vero eos et accusamus et iusto odio 
-                dignissimos ducimus qui blanditiis praesentium.
-                </p>
-            </div>
-        </div> <!-- end section-head -->
-
-        <div class="row block-large-1-3 block-medium-1-2 block-tab-full services-list">
-
-            <div class="column services-item" data-aos="fade-up">
-                <h5>Branding</h5>
-                <p>
-                Ea sint cum. Ullam consectetur nostrum 
-                voluptatem fugiat et dolor non totam sed. Et quia sit aliquam et.
-                Voluptatibus sit facere aperiam tempore est nam et cupiditate. Necessitatibus 
-                nisi dolorem enim sit aut earum et praesentium. Impedit recusandae consequatur 
-                beatae deleniti impedit non et. Eos consequuntur alias. Rerum sit est est 
-                tenetur soluta.
-                </p>
-            </div> <!-- end services-item -->
-
-            <div class="column services-item" data-aos="fade-up">
-                <h5>Product Design</h5>
-                <p>
-                In aspernatur autem enim maxime mollitia. Debitis rerum alias. Facilis qui est qui 
-                impedit. Dolorum fuga provident. Debitis eum non odit facilis ut quibusdam porro 
-                ipsa. Optio aut similique vero dolore sunt laudantium et autem quo. Earum eligendi dolorem 
-                aut quae modi. Cumque impedit voluptatem molestiae a. Perspiciatis at tempora 
-                dicta molestiae iure dolore.
-                </p>
-            </div> <!-- end services-item -->
-
-            <div class="column services-item" data-aos="fade-up">
-                <h5>UX Research</h5>
-                <p>
-                Repellat commodi numquam hic odit voluptatem saepe praesentium. Delectus itaque nemo 
-                aut ipsam similique et veniam. Assumenda rerum ut ea soluta distinctio beatae consectetur 
-                omnis libero. Ratione ipsum sapiente suscipit. Dolorem id doloremque. Nihil cupiditate 
-                sed molestiae quia dolorem sit iure doloremque. Rerum ea officia pariatur. 
-                </p>
-            </div> <!-- end services-item -->
-
-            <div class="column services-item" data-aos="fade-up">
-                <h5>Frontend Development</h5>
-                <p>
-                Ea sint cum. Ullam consectetur nostrum 
-                voluptatem fugiat et dolor non totam sed. Et quia sit aliquam et.
-                Voluptatibus sit facere aperiam tempore est nam et cupiditate. Necessitatibus 
-                nisi dolorem enim sit aut earum et praesentium. Impedit recusandae consequatur 
-                beatae deleniti impedit non et. Eos consequuntur alias. Rerum sit est est 
-                tenetur soluta.
-                </p>
-            </div> <!-- end services-item -->
-
-            <div class="column services-item" data-aos="fade-up">
-                <h5>E-Commerce</h5>
-                <p>
-                Dolorem fugit similique. In sed expedita consequuntur quos dolor eos iusto. Quisquam sint harum nam aut.
-                Fuga aspernatur dolor est. Aliquid odit nostrum et eum reiciendis fugit est consequatur. Rerum eaque 
-                eligendi doloribus quidem iure error voluptatem velit. Veritatis molestiae fuga. Voluptatem 
-                odit voluptatem doloremque nobis. Non hic ipsa illum.
-                </p>
-            </div> <!-- end services-item -->
-
-            <div class="column services-item" data-aos="fade-up">
-                <h5>Illustration</h5>
-                <p>
-                Est nesciunt et rerum sapiente. Ullam impedit labore magni qui. Consequuntur fugiat vel id explicabo. 
-                Inventore suscipit sint totam accusamus aperiam distinctio. Rerum nihil maxime non maiores. Praesentium modi facilis ex.
-                Velit officiis id. Voluptates id cupiditate sit eligendi at nemo rerum rem non. Quae rem quia dignissimos ex 
-                laudantium distinctio ipsam. 
-                </p>
-            </div> <!-- end services-item -->
-
-        </div> <!-- end services-list -->
-
-    </section> <!-- end s-services -->
-
-
-    <!-- portfolio
-    ================================================== -->
-    <section id="portfolio" class="s-portfolio target-section">
-
-        <div class="row section-head">
-            <div class="column large-3 medium-12" data-aos="fade-up">
-                <h2>Portfolio</h2>
-                <p class="desc">Check out our latest projects.</p>
-            </div>
-
-            <div class="column large-8 medium-12 align-x-right" data-aos="fade-up">
-                <p class="lead">
-                At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis 
-                praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias 
-                excepturi sint occaecati cupiditate. At vero eos et accusamus et iusto odio 
-                dignissimos ducimus qui blanditiis praesentium.
-                </p>
-            </div>
-        </div> <!-- end section-head -->
-
-        <div class="row block-large-1-3 block-medium-1-2 block-mob-full folio-list">
-
-            <div class="column folio-item" data-aos="fade-up">
-                <a href="#modal-01" class="folio-item__thumb" data-lity>
-                    <img src="images/portfolio/droplet.jpg" 
-                         srcset="images/portfolio/droplet.jpg 1x, 
-                                 images/portfolio/droplet@2x.jpg 2x" alt="">
-                    <span class="folio-item__text">
-                        Droplet
-                    </span>
-                </a>
-            </div> <!-- end folio-item -->
-
-            <div class="column folio-item" data-aos="fade-up">
-                <a href="#modal-02" class="folio-item__thumb" data-lity>
-                    <img src="images/portfolio/lamp.jpg" 
-                         srcset="images/portfolio/lamp.jpg 1x, 
-                                 images/portfolio/lamp@2x.jpg 2x" alt="">
-                    <span class="folio-item__text">
-                        The Lamp
-                    </span>
-                </a>
-            </div> <!-- end folio-item -->
-
-            <div class="column folio-item" data-aos="fade-up">
-                <a href="#modal-03" class="folio-item__thumb" data-lity>
-                    <img src="images/portfolio/minimalismo.jpg" 
-                         srcset="images/portfolio/minimalismo.jpg 1x, 
-                                 images/portfolio/minimalismo@2x.jpg 2x" alt="">
-                    <span class="folio-item__text">
-                        Minimalismo
-                    </span>
-                </a>
-            </div> <!-- end folio-item -->
-
-            <div class="column folio-item" data-aos="fade-up">
-                <a href="#modal-04" class="folio-item__thumb" data-lity>
-                    <img src="images/portfolio/shutterbug.jpg" 
-                         srcset="images/portfolio/shutterbug.jpg 1x, 
-                                 images/portfolio/shutterbug@2x.jpg 2x" alt="">
-                    <span class="folio-item__text">
-                        Shutterbug
-                    </span>
-                </a>
-            </div> <!-- end folio-item -->
-
-            <div class="column folio-item" data-aos="fade-up">
-                <a href="#modal-05" class="folio-item__thumb" data-lity>
-                    <img src="images/portfolio/fuji.jpg" 
-                         srcset="images/portfolio/fuji.jpg 1x, 
-                                 images/portfolio/fuji@2x.jpg 2x" alt="">
-                    <span class="folio-item__text">
-                        Fuji
-                    </span>
-                </a>
-            </div> <!-- end folio-item -->
-
-            <div class="column folio-item" data-aos="fade-up">
-                <a href="#modal-06" class="folio-item__thumb" data-lity>
-                    <img src="images/portfolio/skaterboy.jpg" 
-                         srcset="images/portfolio/skaterboy.jpg 1x, 
-                                 images/portfolio/skaterboy@2x.jpg 2x" alt="">
-                    <span class="folio-item__text">
-                        Skaterboy
-                    </span>
-                </a>
-            </div> <!-- end folio-item -->
-
-        </div> <!-- end folio-list -->
-
-
-        <!-- Modal Popup
-        =========================================================== -->
-        <div id="modal-01" class="modal-popup lity-hide">
-
-            <img src="images/portfolio/gallery/g-droplet.jpg" alt="" />
-
-            <div class="modal-popup__desc">
-                <h5>Droplet</h5>
-                <p>Odio soluta enim quos sit asperiores rerum rerum repudiandae cum. Vel voluptatem alias qui assumenda iure et expedita voluptatem. Ratione officiis quae.</p>
-                <ul class="modal-popup__cat">
-                    <li>Branding</li>
-                    <li>Product Design</li>
-                </ul>
-            </div>
-
-            <a href="https://www.behance.net/" class="modal-popup__details">Project link</a>
-
-        </div> <!-- end modal-01 -->
-
-        <div id="modal-02" class="modal-popup lity-hide">
-
-            <img src="images/portfolio/gallery/g-lamp.jpg" alt="" />
-
-            <div class="modal-popup__desc">
-                <h5>The Lamp</h5>
-                <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-                <ul class="modal-popup__cat">
-                    <li>Branding</li>
-                </ul>
-            </div>
-
-            <a href="https://www.behance.net/" class="modal-popup__details">Project link</a>
-
-        </div><!-- end modal-02 -->
-
-        <div id="modal-03" class="modal-popup lity-hide">
-
-            <img src="images/portfolio/gallery/g-minimalismo.jpg" alt="" />
-
-            <div class="modal-popup__desc">
-                <h5>Minimalismo</h5>
-                <p>Exercitationem reprehenderit quod explicabo consequatur aliquid ut magni ut. Deleniti quo corrupti illum velit eveniet ratione necessitatibus ipsam mollitia.</p>
-                <ul class="modal-popup__cat">
-                    <li>Product Design</li>
-                </ul>
-            </div>
-
-            <a href="https://www.behance.net/" class="modal-popup__details">Project link</a>
-
-        </div><!-- end modal-03 -->
-
-        <div id="modal-04" class="modal-popup lity-hide">
-
-            <img src="images/portfolio/gallery/g-shutterbug.jpg" alt="" />
-
-            <div class="modal-popup__desc">
-                <h5>Shutterbug</h5>
-                <p>Dolores velit qui quos nobis. Aliquam delectus voluptas quos possimus non voluptatem voluptas voluptas. Est doloribus eligendi porro doloribus voluptatum.</p>
-                <ul class="modal-popup__cat">
-                    <li>E-Commerce</li>
-                </ul>
-            </div>
-
-            <a href="https://www.behance.net/" class="modal-popup__details">Project link</a>
-
-        </div><!-- end modal-04 -->
-
-        <div id="modal-05" class="modal-popup lity-hide">
-
-            <img src="images/portfolio/gallery/g-fuji.jpg" alt="" />
-
-            <div class="modal-popup__desc">
-                <h5>Fuji</h5>
-                <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-                <ul class="modal-popup__cat">
-                    <li>Product Design</li>
-                </ul>
-            </div>
-
-            <a href="https://www.behance.net/" class="modal-popup__details">Project link</a>
-
-        </div><!-- end modal-05 -->
-
-        <div id="modal-06" class="modal-popup lity-hide">
-
-            <img src="images/portfolio/gallery/g-skaterboy.jpg" alt="" />
-
-            <div class="modal-popup__desc">
-                <h5>Skaterboy</h5>
-                <p>Quisquam vel libero consequuntur autem voluptas. Qui aut vero. Omnis fugit mollitia cupiditate voluptas. Aenean sollicitudin, lorem quis bibendum auctor.</p>
-                <ul class="modal-popup__cat">
-                    <li>Branding</li>
-                    <li>Product Design</li>
-                </ul>
-            </div>
-
-            <a href="https://www.behance.net/" class="modal-popup__details">Project link</a>
-
-        </div><!-- end modal-06 -->
-
-    </section> <!-- end s-portfolio -->
-
-
-    <!-- blog
-    ================================================== -->
-    <section id="blog" class="s-blog target-section s-dark">
-
-        <div class="row section-head">
-            <div class="column large-3 medium-12" data-aos="fade-up">
-                <h2>Journal</h2>
-                <p class="desc">Our latest post and rants.</p>
-            </div>
-        </div> <!-- end section-head -->
-
-        <!-- Blog Entries -->
-        <div class="blog-entries">
-
-            <article class="blog-entry" data-aos="fade-up">
-
-                <div class="row blog-entry__header">
-                    <div class="blog-entry__avatar">
-                        <img src="images/avatars/user-06.jpg" alt="Naruto Uzumaki" />
-                    </div>
-
-                    <div class="column large-9 w-1000-stack blog-entry__title">
-                        <h3 class="h2"><a href="blog-single.html">Proin gravida nibh vel velit auctor aliquet Aenean sollicitudin auctor.</a></h3>
-                    </div>
-
-                    <div class="column large-3 w-1000-stack blog-entry__meta">
-                        <span class="blog-entry__date">June 10, 2020</span>
-                        <span class="blog-entry__byline">By Naruto Uzumaki</span> 
-                    </div>
-                </div> <!-- end blog-entry__header -->
-
-                <div class="row">
-
-                    <div class="column large-9 w-1000-stack blog-entry__content">
-                        <p>
-                        Adipisci quisquam quasi et voluptatem explicabo. Laudantium omnis est 
-                        impedit explicabo nulla nemo voluptatem. Quidem neque et et repellendus quos.
-                        Soluta voluptas at sunt dolor qui voluptas facere sed laudantium. Fuga molestias at. 
-                        Deserunt blanditiis maxime ut qui sunt. Dignissimos ea voluptas alias omnis voluptates.
-                        <a href="blog-single.html" class="more-link">Read More</a></p>
-                    </div>
-
-                </div>
-
-            </article> <!-- end blog-entry -->
-
-            <article class="blog-entry" data-aos="fade-up">
-
-                <div class="row blog-entry__header">
-                    <div class="blog-entry__avatar">
-                        <img src="images/avatars/user-07.jpg" alt="Shikamaru Nara" />
-                    </div>
-
-                    <div class="column large-9 w-1000-stack blog-entry__title">
-                        <h3 class="h2"><a href="blog-single.html">
-                            Hic nisi quibusdam illum dolor et impedit et sit esse. 
-                        </a></h3>
-                    </div>
-
-                    <div class="column large-3 w-1000-stack blog-entry__meta">
-                        <span class="blog-entry__date">June 08, 2020</span>
-                        <span class="blog-entry__byline">By Shikamaru Nara</span> 
-                    </div>
-                </div> <!-- end blog-entry__header -->
-
-                <div class="row">
-
-                    <div class="column large-9 w-1000-stack blog-entry__content">
-                        <p>
-                        Dolores quia sit quisquam esse nemo sit. Porro ipsum totam vel doloribus porro a voluptatem. 
-                        Quisquam beatae commodi dolorem et vero pariatur ut expedita. Deleniti quidem numquam totam 
-                        temporibus dolorum excepturi sapiente modi delectus. Nisi reprehenderit est ea qui 
-                        est quia est rem quod.
-                        <a href="blog-single.html" class="more-link">Read More</a></p>
-                    </div>
-
-                </div>
-
-            </article> <!-- end blog-entry -->
-
-            <article class="blog-entry" data-aos="fade-up">
-
-                <div class="row blog-entry__header">
-                    <div class="blog-entry__avatar">
-                        <img src="images/avatars/user-01.jpg" alt="Sasuke Uchiha" />
-                    </div>
-
-                    <div class="column large-9 w-1000-stack blog-entry__title">
-                        <h3 class="h2"><a href="blog-single.html">
-                            Unde ea nobis voluptatem autem reprehenderit vel voluptas rem. 
-                        </a></h3>
-                    </div>
-
-                    <div class="column large-3 w-1000-stack blog-entry__meta">
-                        <span class="blog-entry__date">June 05, 2020</span>
-                        <span class="blog-entry__byline">By Sasuke Uchiha</span> 
-                    </div>
-                </div> <!-- end blog-entry__header -->
-
-                <div class="row">
-
-                    <div class="column large-9 w-1000-stack blog-entry__content">
-                        <p>
-                        Rem id consectetur id adipisci doloremque veniam neque quas. Cupiditate consequatur eos 
-                        cum officiis fugit perferendis iusto beatae consectetur. Nisi reprehenderit est ea qui 
-                        est quia est rem quod. Repudiandae fugiat perspiciatis. Accusantium consequatur eveniet 
-                        numquam praesentium consequatur rem qui possimus.
-                        <a href="blog-single.html" class="more-link">Read More<i class="icon-angle-right"></i></a></p>
-                    </div>
-
-                </div>
-
-            </article> <!-- end blog-entry -->
-
-        </div> <!-- end blog entries -->
-
-    </section> <!-- end s-blog -->
-
-
-    <!-- about
-    ================================================== -->
-    <section id="about" class="s-about target-section">
-
-        <div class="row section-head">
-            <div class="column large-3 medium-12" data-aos="fade-up">
-                <h2>About Us</h2>
-                <p class="desc">This is what we are.</p>
-            </div>
-
-            <div class="column large-8 medium-12 align-x-right" data-aos="fade-up">
-                <p class="lead">
-                At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis 
-                praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias 
-                excepturi sint occaecati cupiditate. At vero eos et accusamus et iusto odio 
-                dignissimos ducimus qui blanditiis praesentium.
-                </p>
-            </div>
-        </div> <!-- end section-head -->
-
-        <div class="row">
-            <div class="column" data-aos="fade-up">
-                <h4>Our Work Process.</h4>
-            </div>
-        </div>
-
-        <div class="row block-large-1-4 block-medium-1-2 block-mob-full process-block">
-
-            <div class="column process" data-aos="fade-up">
-                <h6>Explore.</h6>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
-                <p>
-                Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor,
-                nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate
-                cursus a sit amet mauris. Morbi accumsan ipsum velit.
-                </p>
-            </div>
-   
-            <div class="column process" data-aos="fade-up">
-               <h6>Design.</h6>
-   
-                <p>
-                Aliquam cum molestiae quia eos consequatur qui. Tempora sit doloribus dolores iure quod quasi 
-                totam eum eos. Nulla non sunt eum in itaque qui non sit exercitationem. Sunt sed quasi nobis 
-                quaerat dolor et ad. Sagittis sem nibh id elit. Debitis consequuntur quasi fugit.
-                </p>
-            </div>
-   
-            <div class="column process" data-aos="fade-up">
-                <h6>Develop.</h6>
-   
-                <p>
-                Voluptatem error perspiciatis fugit libero nemo. Repudiandae consequatur qui et quidem dolorem 
-                necessitatibus necessitatibus voluptatibus. Debitis consequuntur quasi fugit sapiente. Odit odio laboriosam 
-                vitae dolores molestias. Est consectetur et.
-                </p>
-            </div>
-   
-            <div class="column process" data-aos="fade-up">
-                <h6>Deliver.</h6>
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
     
-                <p>
-                Earum a sit placeat nostrum dolorum. Ut qui autem omnis magni. Dignissimos quasi molestiae tenetur ipsa 
-                voluptatum similique iste illo nulla. Ut sunt maiores dolorem recusandae ea. Corporis aperiam repellat quaerat 
-                et ab dolores est fuga non.
-                </p>
-            </div>
-   
-         </div> <!-- end process-block -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
 
-         <div class="row">
-            <div class="column" data-aos="fade-up">
-                <h4>Meet The Team.</h4>
-            </div>
-        </div>
+    <link rel="stylesheet" href="css/aos.css">
 
-        <div class="row block-large-1-4 block-medium-1-3 block-tab-1-2 block-500-stack team-block">
+    <link rel="stylesheet" href="css/ionicons.min.css">
 
-            <div class="column team-member" data-aos="fade-up">
-                <div class="team-member__pic">
-                    <img src="images/team/team-member-01.jpg" 
-                         srcset="images/team/team-member-01.jpg 1x, 
-                                 images/team/team-member-01@2x.jpg 2x" alt="">
-                </div>
-                <div class="team-member__info">
-                    <p class="team-member__name">
-                        Naruto Uzumaki
-                        <span>Project Manager</span>
-                    </p>
-                    <ul class="team-member__social">
-                        <li><a href="#0"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
-                        <li><a href="#0"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
-                        <li><a href="#0"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
-                        <li><a href="#0"><i class="fab fa-dribbble" aria-hidden="true"></i></a></li>
-                        <li><a href="#0"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a></li>
-                    </ul>
-                </div>
-            </div>
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="css/jquery.timepicker.css">
 
-            <div class="column team-member" data-aos="fade-up">
-                <div class="team-member__pic">
-                    <img src="images/team/team-member-02.jpg" 
-                         srcset="images/team/team-member-02.jpg 1x, 
-                                 images/team/team-member-02@2x.jpg 2x" alt="">
-                </div>
-                <div class="team-member__info">
-                    <p class="team-member__name">
-                        Sakura Haruno
-                        <span>Design Researcher</span>
-                    </p>
-                    <ul class="team-member__social">
-                        <li><a href="#0"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
-                        <li><a href="#0"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
-                        <li><a href="#0"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
-                        <li><a href="#0"><i class="fab fa-dribbble" aria-hidden="true"></i></a></li>
-                        <li><a href="#0"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a></li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="column team-member" data-aos="fade-up">
-                <div class="team-member__pic">
-                    <img src="images/team/team-member-03.jpg" 
-                         srcset="images/team/team-member-03.jpg 1x, 
-                                 images/team/team-member-03@2x.jpg 2x" alt="">
-                </div>
-                <div class="team-member__info">
-                    <p class="team-member__name">
-                        Kakashi Hatake
-                        <span>UI/UX Designer</span>
-                    </p>
-                    <ul class="team-member__social">
-                        <li><a href="#0"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
-                        <li><a href="#0"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
-                        <li><a href="#0"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
-                        <li><a href="#0"><i class="fab fa-dribbble" aria-hidden="true"></i></a></li>
-                        <li><a href="#0"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a></li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="column team-member" data-aos="fade-up">
-                <div class="team-member__pic">
-                    <img src="images/team/team-member-04.jpg" 
-                         srcset="images/team/team-member-04.jpg 1x, 
-                                 images/team/team-member-04@2x.jpg 2x" alt="">
-                </div>
-                <div class="team-member__info">
-                    <p class="team-member__name">
-                        Shikamaru Nara
-                        <span>Front-End Developer</span>
-                    </p>
-                    <ul class="team-member__social">
-                        <li><a href="#0"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
-                        <li><a href="#0"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
-                        <li><a href="#0"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
-                        <li><a href="#0"><i class="fab fa-dribbble" aria-hidden="true"></i></a></li>
-                        <li><a href="#0"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a></li>
-                    </ul>
-                </div>
-            </div>
-
-        </div> <!-- end team-block -->
-
-    </section> <!-- end s-about -->
-
-
-    <!-- testimonials
-    ================================================== -->
-    <section id="testimonials" class="s-testimonials">
-
-        <div class="row section-head">
-            <div class="column large-3 medium-12" data-aos="fade-up">
-                <h2>Testimonials</h2>
-                <p class="desc">What our clients are saying.</p>
-            </div>
-
-        </div> <!-- end section-head -->
-
-        <div class="row collapse">
-
-            <div class="column testimonial-slider-outer">
-
-                <div class="testimonial-slider" data-aos="fade-up">
-
-                    <div class="testimonial-slider__slide">
-                        <div class="testimonial-slider__author">
-                            <img src="images/avatars/user-02.jpg" alt="Author image" class="testimonial-slider__avatar">
-                            <cite class="testimonial-slider__cite">
-                                <strong>Tim Cook</strong>
-                                <span>CEO, Apple</span>
-                            </cite>
-                        </div>
-                        <p>
-                        Molestiae incidunt consequatur quis ipsa autem nam sit enim magni. Voluptas tempore rem. 
-                        Explicabo a quaerat sint autem dolore ducimus ut consequatur neque.  Nisi dolores quaerat fuga rem nihil nostrum.
-                        Laudantium quia consequatur molestias delectus culpa.
-                        </p>
-                    </div> <!-- end testimonials__slide -->
     
-                    <div class="testimonial-slider__slide">
-                        <div class="testimonial-slider__author">
-                            <img src="images/avatars/user-03.jpg" alt="Author image" class="testimonial-slider__avatar">
-                            <cite class="testimonial-slider__cite">
-                                <strong>Sundar Pichai</strong>
-                                <span>CEO, Google</span>
-                            </cite>
-                        </div>
-                        <p>
-                        Excepturi nam cupiditate culpa doloremque deleniti repellat. Veniam quos repellat voluptas animi adipisci.
-                        Nisi eaque consequatur. Voluptatem dignissimos ut ducimus accusantium perspiciatis.
-                        Quasi voluptas eius distinctio. Atque eos maxime.
-                        </p>
-                    </div> <!-- end testimonials__slide -->
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+
+	<div id="colorlib-page">
+		<a href="#" class="js-colorlib-nav-toggle colorlib-nav-toggle"><i></i></a>
+		<aside id="colorlib-aside" role="complementary" class="js-fullheight">
+			<nav id="colorlib-main-menu" role="navigation">
+				<ul>
+					<li class="colorlib-active"><a href="index.html">Home</a></li>
+					<li><a href="fashion.html">Fashion</a></li>
+					<li><a href="travel.html">Travel</a></li>
+					<li><a href="about.html">About</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</nav>
+
+			<div class="colorlib-footer">
+				<h1 id="colorlib-logo" class="mb-4"><a href="index.html" style="background-image: url(images/bg_1.jpg);">Andrea <span>Moore</span></a></h1>
+				<div class="mb-4">
+					<h3>Subscribe for newsletter</h3>
+					<form action="#" class="colorlib-subscribe-form">
+            <div class="form-group d-flex">
+            	<div class="icon"><span class="icon-paper-plane"></span></div>
+              <input type="text" class="form-control" placeholder="Enter Email Address">
+            </div>
+          </form>
+				</div>
+				<p class="pfooter"><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+	  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+	  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+			</div>
+		</aside> <!-- END COLORLIB-ASIDE -->
+		<div id="colorlib-main">
+			<section class="ftco-section ftco-no-pt ftco-no-pb">
+	    	<div class="container">
+	    		<div class="row d-flex">
+	    			<div class="col-xl-8 py-5 px-md-5">
+	    				<div class="row pt-md-4">
+			    			<div class="col-md-12">
+									<div class="blog-entry ftco-animate d-md-flex">
+										<a href="single.html" class="img img-2" style="background-image: url(images/image_1.jpg);"></a>
+										<div class="text text-2 pl-md-4">
+				              <h3 class="mb-2"><a href="single.html">A Loving Heart is the Truest Wisdom</a></h3>
+				              <div class="meta-wrap">
+												<p class="meta">
+				              		<span><i class="icon-calendar mr-2"></i>June 28, 2019</span>
+				              		<span><a href="single.html"><i class="icon-folder-o mr-2"></i>Travel</a></span>
+				              		<span><i class="icon-comment2 mr-2"></i>5 Comment</span>
+				              	</p>
+			              	</div>
+				              <p class="mb-4">A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+				              <p><a href="#" class="btn-custom">Read More <span class="ion-ios-arrow-forward"></span></a></p>
+				            </div>
+									</div>
+								</div>
+								<div class="col-md-12">
+									<div class="blog-entry ftco-animate d-md-flex">
+										<a href="single.html" class="img img-2" style="background-image: url(images/image_2.jpg);"></a>
+										<div class="text text-2 pl-md-4">
+				              <h3 class="mb-2"><a href="single.html">Great Things Never Came from Comfort Zone</a></h3>
+				              <div class="meta-wrap">
+												<p class="meta">
+				              		<span><i class="icon-calendar mr-2"></i>June 28, 2019</span>
+				              		<span><a href="single.html"><i class="icon-folder-o mr-2"></i>Travel</a></span>
+				              		<span><i class="icon-comment2 mr-2"></i>5 Comment</span>
+				              	</p>
+			              	</div>
+				              <p class="mb-4">A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+				              <p><a href="#" class="btn-custom">Read More <span class="ion-ios-arrow-forward"></span></a></p>
+				            </div>
+									</div>
+								</div>
+								<div class="col-md-12">
+									<div class="blog-entry ftco-animate d-md-flex">
+										<a href="single.html" class="img img-2" style="background-image: url(images/image_3.jpg);"></a>
+										<div class="text text-2 pl-md-4">
+				              <h3 class="mb-2"><a href="single.html">Paths Are Made by Walking</a></h3>
+				              <div class="meta-wrap">
+												<p class="meta">
+				              		<span>Dec 14, 2018</span>
+				              		<span><a href="single.html">Lifestyle</a></span>
+				              		<span>5 Comment</span>
+				              	</p>
+			              	</div>
+				              <p class="mb-4">A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+				              <p><a href="#" class="btn-custom">Read More <span class="ion-ios-arrow-forward"></span></a></p>
+				            </div>
+									</div>
+								</div>
+								<div class="col-md-12">
+									<div class="blog-entry ftco-animate d-md-flex">
+										<a href="single.html" class="img img-2" style="background-image: url(images/image_4.jpg);"></a>
+										<div class="text text-2 pl-md-4">
+				              <h3 class="mb-2"><a href="single.html">The Secret of Getting Ahead is Getting Started</a></h3>
+				              <div class="meta-wrap">
+												<p class="meta">
+				              		<span>Dec 14, 2018</span>
+				              		<span><a href="single.html">Nature</a></span>
+				              		<span>5 Comment</span>
+				              	</p>
+			              	</div>
+				              <p class="mb-4">A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+				              <p><a href="#" class="btn-custom">Read More <span class="ion-ios-arrow-forward"></span></a></p>
+				            </div>
+									</div>
+								</div>
+								<div class="col-md-12">
+									<div class="blog-entry ftco-animate d-md-flex">
+										<a href="single.html" class="img img-2" style="background-image: url(images/image_5.jpg);"></a>
+										<div class="text text-2 pl-md-4">
+				              <h3 class="mb-2"><a href="single.html">You Can't Blame Gravity for Falling in Love</a></h3>
+				              <div class="meta-wrap">
+												<p class="meta">
+				              		<span>Dec 14, 2018</span>
+				              		<span><a href="single.html">Lifestyle</a></span>
+				              		<span>5 Comment</span>
+				              	</p>
+			              	</div>
+				              <p class="mb-4">A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+				              <p><a href="#" class="btn-custom">Read More <span class="ion-ios-arrow-forward"></span></a></p>
+				            </div>
+									</div>
+								</div>
+								<div class="col-md-12">
+									<div class="blog-entry ftco-animate d-md-flex">
+										<a href="single.html" class="img img-2" style="background-image: url(images/image_6.jpg);"></a>
+										<div class="text text-2 pl-md-4">
+				              <h3 class="mb-2"><a href="single.html">You Can't Blame Gravity for Falling in Love</a></h3>
+				              <div class="meta-wrap">
+												<p class="meta">
+				              		<span>Dec 14, 2018</span>
+				              		<span><a href="single.html">Travel</a></span>
+				              		<span>5 Comment</span>
+				              	</p>
+			              	</div>
+				              <p class="mb-4">A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+				              <p><a href="#" class="btn-custom">Read More <span class="ion-ios-arrow-forward"></span></a></p>
+				            </div>
+									</div>
+								</div>
+								<div class="col-md-12">
+									<div class="blog-entry ftco-animate d-md-flex">
+										<a href="single.html" class="img img-2" style="background-image: url(images/image_7.jpg);"></a>
+										<div class="text text-2 pl-md-4">
+				              <h3 class="mb-2"><a href="single.html">You Can't Blame Gravity for Falling in Love</a></h3>
+				              <div class="meta-wrap">
+												<p class="meta">
+				              		<span>Dec 14, 2018</span>
+				              		<span><a href="single.html">Travel</a></span>
+				              		<span>5 Comment</span>
+				              	</p>
+			              	</div>
+				              <p class="mb-4">A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+				              <p><a href="#" class="btn-custom">Read More <span class="ion-ios-arrow-forward"></span></a></p>
+				            </div>
+									</div>
+								</div>
+								<div class="col-md-12">
+									<div class="blog-entry ftco-animate d-md-flex">
+										<a href="single.html" class="img img-2" style="background-image: url(images/image_8.jpg);"></a>
+										<div class="text text-2 pl-md-4">
+				              <h3 class="mb-2"><a href="single.html">You Can't Blame Gravity for Falling in Love</a></h3>
+				              <div class="meta-wrap">
+												<p class="meta">
+				              		<span><i class="icon-calendar mr-2"></i>June 28, 2019</span>
+				              		<span><a href="single.html"><i class="icon-folder-o mr-2"></i>Travel</a></span>
+				              		<span><i class="icon-comment2 mr-2"></i>5 Comment</span>
+				              	</p>
+			              	</div>
+				              <p class="mb-4">A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+				              <p><a href="#" class="btn-custom">Read More <span class="ion-ios-arrow-forward"></span></a></p>
+				            </div>
+									</div>
+								</div>
+								<div class="col-md-12">
+									<div class="blog-entry ftco-animate d-md-flex">
+										<a href="single.html" class="img img-2" style="background-image: url(images/image_9.jpg);"></a>
+										<div class="text text-2 pl-md-4">
+				              <h3 class="mb-2"><a href="single.html">You Can't Blame Gravity for Falling in Love</a></h3>
+				              <div class="meta-wrap">
+												<p class="meta">
+				              		<span><i class="icon-calendar mr-2"></i>June 28, 2019</span>
+				              		<span><a href="single.html"><i class="icon-folder-o mr-2"></i>Travel</a></span>
+				              		<span><i class="icon-comment2 mr-2"></i>5 Comment</span>
+				              	</p>
+			              	</div>
+				              <p class="mb-4">A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+				              <p><a href="#" class="btn-custom">Read More <span class="ion-ios-arrow-forward"></span></a></p>
+				            </div>
+									</div>
+								</div>
+								<div class="col-md-12">
+									<div class="blog-entry ftco-animate d-md-flex">
+										<a href="single.html" class="img img-2" style="background-image: url(images/image_10.jpg);"></a>
+										<div class="text text-2 pl-md-4">
+				              <h3 class="mb-2"><a href="single.html">You Can't Blame Gravity for Falling in Love</a></h3>
+				              <div class="meta-wrap">
+												<p class="meta">
+				              		<span>Dec 14, 2018</span>
+				              		<span><a href="single.html">Lifestyle</a></span>
+				              		<span>5 Comment</span>
+				              	</p>
+			              	</div>
+				              <p class="mb-4">A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+				              <p><a href="#" class="btn-custom">Read More <span class="ion-ios-arrow-forward"></span></a></p>
+				            </div>
+									</div>
+								</div>
+								<div class="col-md-12">
+									<div class="blog-entry ftco-animate d-md-flex">
+										<a href="single.html" class="img img-2" style="background-image: url(images/image_11.jpg);"></a>
+										<div class="text text-2 pl-md-4">
+				              <h3 class="mb-2"><a href="single.html">You Can't Blame Gravity for Falling in Love</a></h3>
+				              <div class="meta-wrap">
+												<p class="meta">
+				              		<span><i class="icon-calendar mr-2"></i>June 28, 2019</span>
+				              		<span><a href="single.html"><i class="icon-folder-o mr-2"></i>Travel</a></span>
+				              		<span><i class="icon-comment2 mr-2"></i>5 Comment</span>
+				              	</p>
+			              	</div>
+				              <p class="mb-4">A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+				              <p><a href="#" class="btn-custom">Read More <span class="ion-ios-arrow-forward"></span></a></p>
+				            </div>
+									</div>
+								</div>
+								<div class="col-md-12">
+									<div class="blog-entry ftco-animate d-md-flex">
+										<a href="single.html" class="img img-2" style="background-image: url(images/image_12.jpg);"></a>
+										<div class="text text-2 pl-md-4">
+				              <h3 class="mb-2"><a href="single.html">You Can't Blame Gravity for Falling in Love</a></h3>
+				              <div class="meta-wrap">
+												<p class="meta">
+				              		<span><i class="icon-calendar mr-2"></i>June 28, 2019</span>
+				              		<span><a href="single.html"><i class="icon-folder-o mr-2"></i>Travel</a></span>
+				              		<span><i class="icon-comment2 mr-2"></i>5 Comment</span>
+				              	</p>
+			              	</div>
+				              <p class="mb-4">A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+				              <p><a href="#" class="btn-custom">Read More <span class="ion-ios-arrow-forward"></span></a></p>
+				            </div>
+									</div>
+								</div>
+			    		</div><!-- END-->
+			    		<div class="row">
+			          <div class="col">
+			            <div class="block-27">
+			              <ul>
+			                <li><a href="#">&lt;</a></li>
+			                <li class="active"><span>1</span></li>
+			                <li><a href="#">2</a></li>
+			                <li><a href="#">3</a></li>
+			                <li><a href="#">4</a></li>
+			                <li><a href="#">5</a></li>
+			                <li><a href="#">&gt;</a></li>
+			              </ul>
+			            </div>
+			          </div>
+			        </div>
+			    	</div>
+	    			<div class="col-xl-4 sidebar ftco-animate bg-light pt-5">
+	            <div class="sidebar-box pt-md-4">
+	              <form action="#" class="search-form">
+	                <div class="form-group">
+	                  <span class="icon icon-search"></span>
+	                  <input type="text" class="form-control" placeholder="Type a keyword and hit enter">
+	                </div>
+	              </form>
+	            </div>
+	            <div class="sidebar-box ftco-animate">
+	            	<h3 class="sidebar-heading">Categories</h3>
+	              <ul class="categories">
+	                <li><a href="#">Fashion <span>(6)</span></a></li>
+	                <li><a href="#">Technology <span>(8)</span></a></li>
+	                <li><a href="#">Travel <span>(2)</span></a></li>
+	                <li><a href="#">Food <span>(2)</span></a></li>
+	                <li><a href="#">Photography <span>(7)</span></a></li>
+	              </ul>
+	            </div>
+
+	            <div class="sidebar-box ftco-animate">
+	              <h3 class="sidebar-heading">Popular Articles</h3>
+	              <div class="block-21 mb-4 d-flex">
+	                <a class="blog-img mr-4" style="background-image: url(images/image_1.jpg);"></a>
+	                <div class="text">
+	                  <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control</a></h3>
+	                  <div class="meta">
+	                    <div><a href="#"><span class="icon-calendar"></span> June 28, 2019</a></div>
+	                    <div><a href="#"><span class="icon-person"></span> Dave Lewis</a></div>
+	                    <div><a href="#"><span class="icon-chat"></span> 19</a></div>
+	                  </div>
+	                </div>
+	              </div>
+	              <div class="block-21 mb-4 d-flex">
+	                <a class="blog-img mr-4" style="background-image: url(images/image_2.jpg);"></a>
+	                <div class="text">
+	                  <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control</a></h3>
+	                  <div class="meta">
+	                    <div><a href="#"><span class="icon-calendar"></span> June 28, 2019</a></div>
+	                    <div><a href="#"><span class="icon-person"></span> Dave Lewis</a></div>
+	                    <div><a href="#"><span class="icon-chat"></span> 19</a></div>
+	                  </div>
+	                </div>
+	              </div>
+	              <div class="block-21 mb-4 d-flex">
+	                <a class="blog-img mr-4" style="background-image: url(images/image_3.jpg);"></a>
+	                <div class="text">
+	                  <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control</a></h3>
+	                  <div class="meta">
+	                    <div><a href="#"><span class="icon-calendar"></span> June 28, 2019</a></div>
+	                    <div><a href="#"><span class="icon-person"></span> Dave Lewis</a></div>
+	                    <div><a href="#"><span class="icon-chat"></span> 19</a></div>
+	                  </div>
+	                </div>
+	              </div>
+	            </div>
+
+	            <div class="sidebar-box ftco-animate">
+	              <h3 class="sidebar-heading">Tag Cloud</h3>
+	              <ul class="tagcloud">
+	                <a href="#" class="tag-cloud-link">animals</a>
+	                <a href="#" class="tag-cloud-link">human</a>
+	                <a href="#" class="tag-cloud-link">people</a>
+	                <a href="#" class="tag-cloud-link">cat</a>
+	                <a href="#" class="tag-cloud-link">dog</a>
+	                <a href="#" class="tag-cloud-link">nature</a>
+	                <a href="#" class="tag-cloud-link">leaves</a>
+	                <a href="#" class="tag-cloud-link">food</a>
+	              </ul>
+	            </div>
+
+							<div class="sidebar-box subs-wrap img py-4" style="background-image: url(images/bg_1.jpg);">
+								<div class="overlay"></div>
+								<h3 class="mb-4 sidebar-heading">Newsletter</h3>
+								<p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia</p>
+	              <form action="#" class="subscribe-form">
+	                <div class="form-group">
+	                  <input type="text" class="form-control" placeholder="Email Address">
+	                  <input type="submit" value="Subscribe" class="mt-2 btn btn-white submit">
+	                </div>
+	              </form>
+	            </div>
+
+	            <div class="sidebar-box ftco-animate">
+	            	<h3 class="sidebar-heading">Archives</h3>
+	              <ul class="categories">
+	              	<li><a href="#">Decob14 2018 <span>(10)</span></a></li>
+	                <li><a href="#">September 2018 <span>(6)</span></a></li>
+	                <li><a href="#">August 2018 <span>(8)</span></a></li>
+	                <li><a href="#">July 2018 <span>(2)</span></a></li>
+	                <li><a href="#">June 2018 <span>(7)</span></a></li>
+	                <li><a href="#">May 2018 <span>(5)</span></a></li>
+	              </ul>
+	            </div>
+
+
+	            <div class="sidebar-box ftco-animate">
+	              <h3 class="sidebar-heading">Paragraph</h3>
+	              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus itaque, autem necessitatibus voluptate quod mollitia delectus aut.</p>
+	            </div>
+	          </div><!-- END COL -->
+	    		</div>
+	    	</div>
+	    </section>
+		</div><!-- END COLORLIB-MAIN -->
+	</div><!-- END COLORLIB-PAGE -->
+
+  <!-- loader -->
+  <div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.animateNumber.min.js"></script>
+  <script src="js/scrollax.min.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+  <script src="js/google-map.js"></script>
+  <script src="js/main.js"></script>
     
-                    <div class="testimonial-slider__slide">
-                        <div class="testimonial-slider__author">
-                            <img src="images/avatars/user-04.jpg" alt="Author image" class="testimonial-slider__avatar">
-                            <cite class="testimonial-slider__cite">
-                                <strong>Satya Nadella</strong>
-                                <span>CEO, Microsoft</span>
-                            </cite>
-                        </div>
-                        <p>
-                        Repellat dignissimos libero. Qui sed at corrupti expedita voluptas odit. Nihil ea quia nesciunt. Ducimus aut sed ipsam.  
-                        Autem eaque officia cum exercitationem sunt voluptatum accusamus. Quasi voluptas eius distinctio.
-                        Voluptatem dignissimos ut.
-                        </p>
-                    </div> <!-- end testimonials__slide -->
-    
-                    <div class="testimonial-slider__slide">
-                        <div class="testimonial-slider__author">
-                            <img src="images/avatars/user-05.jpg" alt="Author image" class="testimonial-slider__avatar">
-                            <cite class="testimonial-slider__cite">
-                                <strong>Jeff Bezos</strong>
-                                <span>CEO, Amazon</span>
-                            </cite>
-                        </div>
-                        <p>
-                        Nunc interdum lacus sit amet orci. Vestibulum dapibus nunc ac augue. Fusce vel dui. In ac felis 
-                        quis tortor malesuada pretium. Curabitur vestibulum aliquam leo. Qui sed at corrupti expedita voluptas odit. 
-                        Nihil ea quia nesciunt. Ducimus aut sed ipsam.
-                        </p>
-                    </div> <!-- end testimonials__slide -->
-
-                </div> <!-- end testimonial slider -->
-                
-            </div> <!-- end column -->
-
-        </div> <!-- end row -->
-
-    </section> <!-- end s-testimonials -->
-
-
-    <!-- CTA
-    ================================================== -->
-    <section class="s-cta ss-dark">
-
-        <div class="row heading-block heading-block--center" data-aos="fade-up">
-            <div class="column">
-                <h2 class="section-desc">
-                    Need a great reliable web hosting?
-                </h2>
-            </div>
-        </div> <!-- end heading-block -->
-
-        <div class="row cta-content" data-aos="fade-up">
-            <div class="column">
-                <p>
-                We highly recommend <a href="https://www.dreamhost.com/r.cgi?287326">DreamHost</a>.
-                Powerful web and Wordpress hosting. Guaranteed.
-                Starting at $2.95 per month.
-                </p>
-
-                <a href="https://www.dreamhost.com/r.cgi?287326" class="btn h-full-width">Get Started</a>
-            </div>
-        </div> <!-- end ad-content -->
-
-    </section> <!-- end s-cta -->
-
-
-    <!-- contact
-    ================================================== -->
-    <section id="contact" class="s-contact target-section s-dark">
-
-        <div class="row section-head">
-            <div class="column large-3 medium-12">
-                <h2>Contact Us</h2>
-                <p class="desc">Get in touch with us.</p>
-            </div>
-        </div> <!-- end section-head -->
-
-        <div class="row s-contact__content">
-
-            <div class="column large-7 medium-12">
-                <h3 class="display-1">
-                    Do you have an idea or an epic project in mind? Talk to us. 
-                    Let us work together and make something great. Shoot us 
-                    a message.
-                </h3>
-
-                <div class="s-contact__email-us">
-                    <a href="mailto:#0" class="btn btn--primary h-full-width">Let's Talk</a>
-                </div>
-            </div>
-
-            <div class="column large-4 medium-12 s-contact__info-blocks">
-                <div class="row">
-                    <div class="column large-12 medium-6 tab-12">
-                        <div class="s-contact__info-block">
-                            
-                            <span class="s-contact__info-block-icon">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"><path d="M12 14c2.206 0 4-1.794 4-4s-1.794-4-4-4-4 1.794-4 4 1.794 4 4 4zm0-6c1.103 0 2 .897 2 2s-.897 2-2 2-2-.897-2-2 .897-2 2-2z"/><path d="M11.42 21.814a.998.998 0 001.16 0C12.884 21.599 20.029 16.44 20 10c0-4.411-3.589-8-8-8S4 5.589 4 9.995c-.029 6.445 7.116 11.604 7.42 11.819zM12 4c3.309 0 6 2.691 6 6.005.021 4.438-4.388 8.423-6 9.73-1.611-1.308-6.021-5.294-6-9.735 0-3.309 2.691-6 6-6z"/></svg>
-                            </span>
-        
-                            <h5>Find us here</h5>
-                            <p>
-                            1600 Amphitheatre Parkway <br>
-                            Mountain View, California <br>
-                            94043 US
-                            </p>
-                        </div> <!-- end s-contact__info-block -->
-                    </div>
-
-                    <div class="column large-12 medium-6 tab-12">
-                        <div class="s-contact__info-block">
-                            <span class="s-contact__info-block-icon">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"><path d="M17.707 12.293a.999.999 0 00-1.414 0l-1.594 1.594c-.739-.22-2.118-.72-2.992-1.594s-1.374-2.253-1.594-2.992l1.594-1.594a.999.999 0 000-1.414l-4-4a.999.999 0 00-1.414 0L3.581 5.005c-.38.38-.594.902-.586 1.435.023 1.424.4 6.37 4.298 10.268s8.844 4.274 10.269 4.298h.028c.528 0 1.027-.208 1.405-.586l2.712-2.712a.999.999 0 000-1.414l-4-4.001zm-.127 6.712c-1.248-.021-5.518-.356-8.873-3.712-3.366-3.366-3.692-7.651-3.712-8.874L7 4.414 9.586 7 8.293 8.293a1 1 0 00-.272.912c.024.115.611 2.842 2.271 4.502s4.387 2.247 4.502 2.271a.991.991 0 00.912-.271L17 14.414 19.586 17l-2.006 2.005z"/></svg>
-                            </span>
-        
-                            <h5>Say hello</h5>
-                            <p>
-                            hello@kreative.com <br>
-                            +197 543 2345 <br>
-                            +197 123 9876
-                            </p>
-                        </div> <!-- end s-contact__info-block -->
-                    </div>
-                </div> <!-- end row -->
-            </div> <!-- end s-contact__info-blocks -->
-
-        </div> <!-- end s-contact__content -->
-
-    </section> <!-- end s-contact -->
-
-
-    <!-- footer
-    ================================================== -->
-    <footer class="s-footer">
-        <div class="row">
-            <div class="column large-4 medium-6 w-1000-stack s-footer__social-block">
-                <ul class="s-footer__social">
-                    <li><a href="#0"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
-                    <li><a href="#0"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
-                    <li><a href="#0"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
-                    <li><a href="#0"><i class="fab fa-dribbble" aria-hidden="true"></i></a></li>
-                    <li><a href="#0"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a></li>
-                </ul>
-            </div>
-
-            <div class="column large-7 medium-6 w-1000-stack ss-copyright">
-                <span>© Copyright Kreative 2020</span> 
-                <span>Design by <a href="https://www.styleshout.com/">StyleShout</a></span>
-            </div>
-        </div>
-
-        <div class="ss-go-top">
-            <a class="smoothscroll" title="Back to Top" href="#top">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M6 4h12v2H6zm5 10v6h2v-6h5l-6-6-6 6z"/></svg>
-            </a>
-        </div> <!-- end ss-go-top -->
-    </footer>
-
-
-    <!-- Java Script
-    ================================================== -->
-    <script src="js/jquery-3.2.1.min.js"></script>
-    <script src="js/plugins.js"></script>
-    <script src="js/main.js"></script>
-
-</body>
-
+  </body>
 </html>
